@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  
 }
 
 .first-section {
@@ -12,20 +11,36 @@ body {
 
 .header {
   display: flex;
-  flex-direction: row;
+  margin: 3px;
 }
 
 .logo {
   display: flex;
   margin-right: auto;
+  color: #ebeced;
 }
 
 .right-links {
   display: flex;
-  flex-direction: row;
-  gap:10px
+  gap: 10px;
 }
 
 li {
   list-style: none;
+}
+
+li > a {
+  color: #b4b9bf;
+  text-decoration: none;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #E5E7EB;
 }
