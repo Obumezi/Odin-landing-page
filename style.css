@@ -86,8 +86,7 @@ button {
   justify-content: center;
   gap: 20px;
   display: flex;
-  margin-top: 0;
-  margin: 40px auto 0 auto;
+  text-align: justify;
 }
 
 .second-text {
@@ -103,10 +102,23 @@ button {
   text-align: center;
 }
 
-
 .third-section {
-  width: 100%;
   background-color: #e5e7eb;
-  padding: 10px;
-  height: 100%;
+  padding: 50px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 30px;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.author {
+  display: flex;
+  justify-content: end;
+  color: #1f2937;
+  margin-right: 100px;
+  font-size: 25px;
+  font-weight: 900;
 }
