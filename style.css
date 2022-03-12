@@ -2,11 +2,13 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
 }
 
 .first-section {
   width: 100%;
   background-color: #1f2937;
+  padding: 10px;
 }
 
 .header {
@@ -36,11 +38,75 @@ li > a {
 
 .hero-main-text {
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: bold;
   color: #f9faf8;
+  margin-bottom: auto;
 }
 
 .sub-text {
-  font-size: 18px;
-  color: #E5E7EB;
+  font-size: 19px;
+  color: #e5e7eb;
+}
+
+.main-container {
+  display: flex;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+.hold {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+button {
+  width: 100px;
+}
+
+.second-section {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 3px rgb(48, 186, 231) solid;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.box-hold {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  margin-top: 0;
+  margin: 40px auto 0 auto;
+}
+
+.second-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.text {
+  text-align: center;
+}
+
+
+.third-section {
+  width: 100%;
+  background-color: #e5e7eb;
+  padding: 10px;
+  height: 100%;
 }
