@@ -122,3 +122,68 @@ button {
   font-size: 25px;
   font-weight: 900;
 }
+
+.forth-section {
+  display: flex;
+  width: 100%;
+  background-color: white4;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.call-to-action {
+  display: flex;
+  height: 119px;
+  width: 800px;
+  background-color: #3882fc;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.left-call {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: 50px;
+  line-height: 2.9;
+  margin-top: 10px;
+}
+
+.right-call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.button2 {
+  color: white;
+  background-color: #3882fc;
+  border: 2px white solid;
+  border-radius: 3px;
+  margin-right: 50px;
+}
+
+.product {
+  margin-top: -15px;
+  font-weight: normal;
+}
+
+.action {
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.footer {
+  width: 100%;
+  background-color: #1f2937;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: small;
+}
