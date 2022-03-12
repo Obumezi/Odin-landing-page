@@ -20,11 +20,13 @@ body {
   display: flex;
   margin-right: auto;
   color: #ebeced;
+  margin-left: 250px;
 }
 
 .right-links {
   display: flex;
   gap: 10px;
+  margin-right: 250px;
 }
 
 li {
@@ -35,6 +37,7 @@ li > a {
   color: #b4b9bf;
   text-decoration: none;
 }
+
 
 .hero-main-text {
   font-size: 48px;
@@ -52,6 +55,8 @@ li > a {
   display: flex;
   margin-right: auto;
   flex-direction: column;
+  margin-left: 250px;
+  margin-bottom: 40px;
 }
 
 .hold {
@@ -59,9 +64,11 @@ li > a {
   align-items: center;
 }
 
-img {
-  width: 150px;
-  height: 150px;
+.image-c {
+  margin-right: 250px;
+  height: 300px;
+  width: 250px;
+  color: white;
 }
 
 button {
